@@ -32,7 +32,7 @@ nav {
 
 main{
   background-color: white;
-  width: calc(70% - 1px); 
+  width: calc(50% - 1px); 
   overflow: hidden;
   float: left; 
   padding: 1rem; 
@@ -77,6 +77,7 @@ body{
 }
 
 aside {
-  width: 30%; 
+  width: 40%; 
   float: right; 
+  padding: 1rem;
 }
