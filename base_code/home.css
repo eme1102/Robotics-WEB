@@ -35,8 +35,7 @@ main{
   width: calc(50% - 1px); 
   overflow: hidden;
   float: left; 
-  margin-left: auto;
-  margin-right: auto;
+  padding: 1rem;
 }
 
 .nav_bar{
