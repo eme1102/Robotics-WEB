@@ -35,6 +35,7 @@ main{
   width: calc(70% - 1px); 
   overflow: hidden;
   float: left; 
+  padding: 1rem; 
 }
 
 .nav_bar{
