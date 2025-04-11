@@ -80,4 +80,12 @@ header p {
 body{
   margin: 0;
 }
+.left{
+  display: flex;
+  align-items: left;
+}
 
+.right{
+  display: flex;
+  align-items: right;
+}
