@@ -83,6 +83,7 @@ body{
 .left{
   display: flex;
   align-items: left;
+  margin: 10px;
 }
 
 .right{
