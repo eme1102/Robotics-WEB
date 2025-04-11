@@ -63,7 +63,7 @@ p:last-of-type {
 
 
 main p {
-  color: #555; /
+  color: black;
   font-size: 16px; 
 }
 
@@ -74,7 +74,7 @@ header p {
 }
 
 .heading{
-  font-size: 20px;
+  font-size: 40px;
   color: black;
 }
 body{
