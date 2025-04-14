@@ -92,10 +92,16 @@ body{
   img.extra-margin{
     margin-top: 240px;
   }
+  img.extra-margin-half{
+    margin-top: 120px;
+  }
 }
 @media (min-width: 769px){
   img.extra-margin{
     margin-top: 60px;
+  }
+  img.extra-margin-half{
+    margin-top: 30px;
   }
 }
 img {
