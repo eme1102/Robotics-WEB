@@ -87,3 +87,11 @@ body{
   float: right;
   width: 40%;
 }
+
+img {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px outset #00356a;
+  max-height: 250px;
+}
