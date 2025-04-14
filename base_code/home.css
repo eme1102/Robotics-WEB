@@ -9,41 +9,66 @@ header{
   overflow: hidden;
 }
 
-nav {
+.nav_bar{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   color: white;
   background-color: #00356a;
   overflow: hidden;
+  justify-items: center;
 }
 
-.nav_buttons{
-  font-size: 40px;
-  color:white;
-
+@media (max-width: 768px){
+  .nav_buttons{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+  }
 }
-
+@media (min-width: 769px){
+  .nav_buttons{
+    font-size: 48px;
+    color:white;
+    text-decoration: none;
+  }
+}
 .nav_buttons:hover{
   color:#bbbbbb
 }
-
 .nav_buttons:: hover{
-    transform: scale(1.02);
     filter: brightness(110%);
 }
-
-main{
-  background-color: white;
-  width: calc(50% - 1px); 
-  overflow: hidden;
-  float: left; 
-  padding: 1rem;
+@media (max-width: 768px){
+  main{
+    background-color: white;
+    font-weight: 200;
+    width: calc(50% - 1px); 
+    overflow: hidden;
+    float: left; 
+    padding: 1rem;
+  }
+  .heading{
+    font-size: 20px;
+    color: black;
+  }
+  main p {
+    color: black;
+    font-size: 12px; 
+    margin-bottom: 80px;
+  }
 }
-
-.nav_bar{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-
+@media (min-width: 769px){
+  main{
+    background-color: white;
+    width: calc(50% - 1px); 
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    overflow: hidden;
+    float: left; 
+    padding: 1rem;
+  }
+  
 p {
   font-size: 18px; 
   line-height: 1.6; 
@@ -60,11 +85,6 @@ p:last-of-type {
   margin-bottom: 40px; 
 }
 
-
-main p {
-  color: #555; /
-  font-size: 16px; 
-}
 
 header p {
   font-size: 20px; 
