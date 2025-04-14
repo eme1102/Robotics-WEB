@@ -23,7 +23,7 @@ nav {
 }
 @media (min-width: 769px){
   .nav_buttons{
-    font-size: 40px;
+    font-size: 48px;
     color:white;
   }
 }
@@ -33,7 +33,6 @@ nav {
 }
 
 .nav_buttons:: hover{
-    transform: scale(1.02);
     filter: brightness(110%);
 }
 
@@ -60,16 +59,18 @@ nav {
   justify-content: space-evenly;
 }
 
+
+
 main p {
   color: black;
   font-size: 16px; 
+  margin-bottom: 80px;
 }
 
 header p {
   font-size: 20px; 
   color: white; 
   margin-top: 10px; 
-  font-weight: bold;
 }
 
 .heading{
