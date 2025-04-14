@@ -88,8 +88,15 @@ body{
   margin-left: 1%;
   margin-right: 1%;
 }
-img.extra-margin{
-  margin-top: 60px;
+@media (max-width: 768px){
+  img.extra-margin{
+    margin-top: 240px;
+  }
+}
+@media (min-width: 769px){
+  img.extra-margin{
+    margin-top: 60px;
+  }
 }
 img {
   margin-top: 10px;
