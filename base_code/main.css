@@ -60,11 +60,6 @@ nav {
   justify-content: space-evenly;
 }
 
-p:last-of-type {
-  margin-bottom: 40px; 
-}
-
-
 main p {
   color: black;
   font-size: 16px; 
@@ -85,11 +80,10 @@ body{
   margin: 0;
 }
 .left{
-  align-items: left;
-  margin: 10px;
+  float: left;
+  width: 60%;
 }
-
 .right{
-  display: flex;
-  align-items: right;
+  float: right;
+  width: 40%;
 }
