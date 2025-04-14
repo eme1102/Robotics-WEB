@@ -15,10 +15,17 @@ nav {
   overflow: hidden;
 }
 
-.nav_buttons{
-  font-size: 40px;
-  color:white;
-
+@media (max-width: 768px){
+  .nav_buttons{
+    font-size: 20px;
+    color:white;
+  }
+}
+@media (min-width: 769px){
+  .nav_buttons{
+    font-size: 40px;
+    color:white;
+  }
 }
 
 .nav_buttons:hover{
@@ -30,13 +37,22 @@ nav {
     filter: brightness(110%);
 }
 
-main{
-  background-color: white;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 200;
-  overflow: hidden;
+@media (max-width: 768px){
+  main{
+    background-color: white;
+    font-weight: 200;
+    overflow: hidden;
+  }
+}
+@media (min-width: 769px){
+  main{
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    overflow: hidden;
+  }
 }
 
 .nav_bar{
