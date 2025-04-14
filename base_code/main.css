@@ -44,6 +44,15 @@ header{
     font-weight: 200;
     overflow: hidden;
   }
+  .heading{
+    font-size: 20px;
+    color: black;
+  }
+  main p {
+    color: black;
+    font-size: 12px; 
+    margin-bottom: 80px;
+  }
 }
 @media (min-width: 769px){
   main{
@@ -54,12 +63,15 @@ header{
     font-weight: 200;
     overflow: hidden;
   }
-}
-
-main p {
-  color: black;
-  font-size: 16px; 
-  margin-bottom: 80px;
+  .heading{
+    font-size: 40px;
+    color: black;
+  }
+  main p {
+    color: black;
+    font-size: 16px; 
+    margin-bottom: 80px;
+  }
 }
 
 header p {
@@ -68,10 +80,7 @@ header p {
   margin-top: 10px; 
 }
 
-.heading{
-  font-size: 40px;
-  color: black;
-}
+
 body{
   margin: 0;
 }
