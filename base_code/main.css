@@ -19,6 +19,7 @@ header{
   background-color: #00356a;
   overflow: hidden;
   justify-items: center;
+  position: fixed;
 }
 
 @media (max-width: 768px){
